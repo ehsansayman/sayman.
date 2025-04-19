@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سایمان سازه</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>شرکت معماری سایمان سازه</h1>
+    <p>ما خشت اول هستیم تا سقفی استوار بنا شود</p>
+  </header>  <section id="about">
+    <h2>درباره ما</h2>
+    <p>شرکت سایمان سازه با تکیه بر تجربه و دانش فنی تیم مهندسی خود، در زمینه طراحی، نظارت، اجرای پروژه‌های معماری، و فروش متریال ساختمانی فعالیت دارد.</p>
+    <ul>
+      <li><strong>مهندس احسان حسن‌خانی (مدیرعامل):</strong> بنیان‌گذار شرکت با بیش از ۱۰ سال تجربه در مدیریت پروژه‌های عمرانی و معماری.</li>
+      <li><strong>مهندس اکبر آزاد موسوی (مدیر فنی):</strong> متخصص در اجرا و نظارت بر کیفیت فنی سازه‌ها.</li>
+      <li><strong>مهندس احمد سماواتی (مدیر مالی):</strong> کارشناس تأمین مالی پروژه‌های ساختمانی و مدیریت بودجه.</li>
+      <li><strong>مهندس هومن حسین‌پور (طراح ارشد):</strong> متخصص در طراحی داخلی و نما با تمرکز بر سبک‌های مدرن.</li>
+    </ul>
+  </section>  <section id="services">
+    <h2>خدمات</h2>
+    <ul>
+      <li>طراحی و اجرای پروژه‌های معماری</li>
+      <li>فروش متریال معماری و ساختمانی</li>
+      <li>اجرای پروژه به صورت اقساطی بدون پیش‌پرداخت و ضامن</li>
+    </ul>
+  </section>  <section id="products">
+    <h2>محصولات معماری</h2>
+    <p>سایمان سازه ارائه‌دهنده‌ی مصالح مدرن معماری شامل انواع سنگ، چوب، کفپوش، متریال دکوراتیو، ابزار کلاسیک و نئوکلاسیک، با ضمانت کیفیت و قیمت رقابتی است.</p>
+  </section>  <section id="gallery">
+    <h2>گالری پروژه‌ها</h2>
+    <div class="slider">
+      <img src="img/project1.jpg" alt="پروژه اول" />
+      <img src="img/project2.jpg" alt="پروژه دوم" />
+    </div>
+  </section>  <section id="articles">
+    <h2>مقالات معماری شهر ارومیه</h2>
+    <ul>
+      <li>بررسی معماری سنتی ارومیه</li>
+      <li>تحلیل نماهای مدرن در مناطق سردسیر</li>
+    </ul>
+  </section>  <section id="faq">
+    <h2>سوالات متداول</h2>
+    <ul>
+      <li><strong>چطور می‌تونم اقساطی خرید کنم؟</strong> فقط با چک معتبر و اعتبارسنجی.</li>
+      <li><strong>چه متریال‌هایی موجوده؟</strong> همه انواع متریال‌های معماری از کلاسیک تا مدرن.</li>
+    </ul>
+  </section>  <section id="newsletter">
+    <h2>عضویت در خبرنامه</h2>
+    <form>
+      <input type="email" placeholder="ایمیل خود را وارد کنید" required />
+      <button type="submit">عضویت</button>
+    </form>
+  </section>  <section id="order">
+    <h2>سفارش آنلاین</h2>
+    <form>
+      <input type="text" placeholder="نام و نام خانوادگی" required />
+      <input type="tel" placeholder="شماره تماس" required />
+      <textarea placeholder="توضیح پروژه یا متریال درخواستی"></textarea>
+      <button type="submit">ارسال سفارش</button>
+    </form>
+  </section>  <footer>
+    <p>آدرس: ارومیه، اول خیابان حسنی، ساختمان انوشا، طبقه دوم، واحد پنجم</p>
+    <p>شماره تماس: 09144834122 | واتساپ: <a href="https://wa.me/989302122884">09302122884</a></p>
+  </footer>  <script>
+    gsap.from("header h1", { duration: 1, y: -50, opacity: 0 });
+    gsap.from("section", { duration: 1, y: 30, opacity: 0, stagger: 0.3 });
+  </script></body>
+</html>
